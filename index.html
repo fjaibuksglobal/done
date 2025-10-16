@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FJ AIBUKS Ahmad Ibrahim Matazu  Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* small extra styles */
+    .glass { background: rgba(255,255,255,0.04); backdrop-filter: blur(6px); }
+    .avatar-circle { width: 140px; height: 140px; border-radius: 9999px; object-fit: cover; }
+    .section-title{font-weight:700}
+  </style>
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased leading-relaxed">
+  <div class="min-h-screen flex flex-col">
+
+    <!-- NAV -->
+    <header class="bg-gradient-to-r from-indigo-700 via-fuchsia-600 to-rose-500 shadow-lg">
+      <div class="max-w-6xl mx-auto px-6 lg:px-8">
+        <div class="flex items-center justify-between py-4">
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-xl font-bold ring-1 ring-white/10">FJ</div>
+            <div>
+              <div class="text-white font-semibold">FJ AIBUKS</div>
+              <div class="text-xs text-white/80">Design • Web • Learning</div>
+            </div>
+          </div>
+
+          <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-white/90">
+            <a href="#home" class="hover:underline">Home</a>
+            <a href="#about" class="hover:underline">About</a>
+            <a href="#experience" class="hover:underline">Experience</a>
+            <a href="#certificates" class="hover:underline">Certificates</a>
+            <a href="#services" class="hover:underline">Services</a>
+            <a href="#gallery" class="hover:underline">Gallery</a>
+            <a href="#contact" class="hover:underline">Contact</a>
+          </nav>
+
+          <div class="hidden md:block">
+            <a href="#contact" class="px-4 py-2 bg-white text-indigo-600 rounded-lg shadow">Get in touch</a>
+          </div>
+
+          <div class="md:hidden">
+            <button id="menuBtn" class="p-2 rounded-md bg-white/10">Menu</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-grow">
+
+      <!-- HERO -->
+      <section id="home" class="max-w-6xl mx-auto px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+
+          <div class="md:col-span-1 text-center md:text-left">
+            <div class="glass p-6 rounded-2xl shadow-xl ring-1 ring-white/5">
+              <img src="images/fj.jpg" alt="Ahmad Ibrahim" class="mx-auto md:mx-0 avatar-circle ring-2 ring-white/10 mb-4"/>
+              <h1 class="text-2xl font-bold">Ahmad Ibrahim (FJ)</h1>
+              <p class="text-sm text-slate-200/90 mt-2">Front-End Web Developer • Teacher • Entrepreneur</p>
+
+              <div class="mt-3 text-sm text-slate-300">
+                <strong>Location:</strong> Katsina, Nigeria<br />
+                <strong>Email:</strong> <a href="mailto:doctora4508@gmail.com" class="underline">doctora4508@gmail.com</a>
+              </div>
+
+              <div class="flex gap-3 mt-4 justify-center md:justify-start">
+                <a href="#contact" class="px-3 py-2 bg-white/10 rounded-lg hover:bg-white/20">Hire me</a>
+                <a href="#gallery" class="px-3 py-2 bg-white/10 rounded-lg hover:bg-white/20">Portfolio</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="md:col-span-1 flex justify-center">
+            <div class="relative w-56 h-56 rounded-full bg-gradient-to-tr from-rose-400 to-indigo-500 shadow-2xl flex items-center justify-center">
+              <div class="w-48 h-48 rounded-full bg-white/10 flex items-center justify-center">
+                <span class="text-3xl font-extrabold">FJ</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="md:col-span-1">
+            <div class="p-6 rounded-2xl glass shadow-xl ring-1 ring-white/5">
+              <h3 class="text-lg font-semibold">What I do</h3>
+              <ul class="mt-3 space-y-2 text-sm text-slate-200">
+                <li>• Frontend development (HTML, CSS, JavaScript)</li>
+                <li>• Teaching HTML & CSS in Hausa</li>
+                <li>• Building web apps and Android WebView apps</li>
+              </ul>
+
+              <div class="mt-4">
+                <div class="text-xs text-slate-300">Top Skills</div>
+                <div class="mt-2 space-y-2">
+                  <div>
+                    <div class="text-xs">HTML <span class="float-right">95%</span></div>
+                    <div class="w-full bg-white/6 rounded-full h-2 mt-1"><div class="bg-indigo-400 h-2 rounded-full" style="width:95%"></div></div>
+                  </div>
+                  <div>
+                    <div class="text-xs">CSS <span class="float-right">90%</span></div>
+                    <div class="w-full bg-white/6 rounded-full h-2 mt-1"><div class="bg-rose-400 h-2 rounded-full" style="width:90%"></div></div>
+                  </div>
+                  <div>
+                    <div class="text-xs">JavaScript <span class="float-right">42%</span></div>
+                    <div class="w-full bg-white/6 rounded-full h-2 mt-1"><div class="bg-fuchsia-400 h-2 rounded-full" style="width:42%"></div></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="max-w-6xl mx-auto px-6 lg:px-8 py-8">
+        <div class="bg-slate-800 p-6 rounded-2xl shadow-inner ring-1 ring-white/5">
+          <h2 class="text-2xl font-bold">About Me</h2>
+          <p class="mt-3 text-sm text-slate-300">I’m <strong>Ahmad Ibrahim</strong>, a passionate and detail-oriented <strong>Front-End Web Developer</strong> from Nigeria. I specialize in creating modern, mobile-friendly, and high-performance websites using <strong>HTML, CSS, and JavaScript</strong>. My background in Mathematics (B.Sc., Umaru Musa Yar’adua University) and leadership experience help me deliver well-structured code, fast results, and great communication.</p>
+
+          <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="p-4 rounded-lg bg-slate-900/40">
+              <h3 class="section-title">Education</h3>
+              <p class="text-sm mt-2">B.Sc. Mathematics Umaru Musa Yar’adua University<br />400 Level (Final Year) With CGPA: 4.1</p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-slate-900/40">
+              <h3 class="section-title">Languages</h3>
+              <p class="text-sm mt-2">English (Fluent) • Hausa (Native)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience" class="max-w-6xl mx-auto px-6 lg:px-8 py-8">
+        <h2 class="text-2xl font-bold mb-4">Work Experience</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="p-6 rounded-2xl glass">
+            <h3 class="font-semibold">Supervisor  M. Sarki Royal Service, Katsina</h3>
+            <p class="text-sm text-slate-300 mt-2">(Jan 2022  Present)</p>
+            <ul class="mt-3 text-sm text-slate-200 list-disc pl-5">
+              <li>Manage daily production operations and supervise a team of workers.</li>
+              <li>Coordinate tasks, track progress and ensure high quality delivery.</li>
+              <li>Improve workflow efficiency and maintain excellent communication with clients and staff.</li>
+              <li>Develop leadership, time-management, and problem-solving skills transferable to freelance projects.</li>
+            </ul>
+          </div>
+
+          <div class="p-6 rounded-2xl glass">
+            <h3 class="font-semibold">Intern (SIWES)  Katsina State Internal Revenue Service (PIT Dept.)</h3>
+            <p class="text-sm text-slate-300 mt-2">(SIWES Internship)</p>
+            <ul class="mt-3 text-sm text-slate-200 list-disc pl-5">
+              <li>Assisted with documentation, record keeping, and data management.</li>
+              <li>Worked with Microsoft Excel for data analysis and reporting.</li>
+              <li>Gained practical experience in administrative processes and client handling.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATES -->
+      <section id="certificates" class="max-w-6xl mx-auto px-6 lg:px-8 py-8">
+        <h2 class="text-2xl font-bold mb-4">Certificates & Achievements</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="p-4 rounded-2xl bg-slate-800/40">
+            <h4 class="font-semibold">Microsoft Excel Proficiency</h4>
+            <p class="text-sm mt-1 text-slate-300">Data analysis, formulas, charts and reporting.</p>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-800/40">
+            <h4 class="font-semibold">Academic Excellence</h4>
+            <p class="text-sm mt-1 text-slate-300">Awarded for outstanding academic performance in Mathematics.</p>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-800/40">
+            <h4 class="font-semibold">Lecturers' Recognition</h4>
+            <p class="text-sm mt-1 text-slate-300">Recognized by the department for academic excellence and contribution.</p>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-800/40">
+            <h4 class="font-semibold">SIWES Certificate</h4>
+            <p class="text-sm mt-1 text-slate-300">Katsina State Internal Revenue Service. practical internship experience.</p>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-800/40">
+            <h4 class="font-semibold">Leadership Certificate</h4>
+            <p class="text-sm mt-1 text-slate-300">Teamwork, leadership and coordination training.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="max-w-6xl mx-auto px-6 lg:px-8 py-8">
+        <h2 class="text-2xl font-bold mb-4">Skills</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="p-4 rounded-2xl bg-slate-800/40">
+            <h4 class="font-semibold">Web Development</h4>
+            <p class="text-sm mt-1 text-slate-300">HTML5, CSS3, Responsive Design, Basic JavaScript</p>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-800/40">
+            <h4 class="font-semibold">Design & UI</h4>
+            <p class="text-sm mt-1 text-slate-300">Landing pages, Portfolio templates, UI basics</p>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-800/40">
+            <h4 class="font-semibold">Data & Office</h4>
+            <p class="text-sm mt-1 text-slate-300">Microsoft Excel (analysis & reports), Documentation</p>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-800/40">
+            <h4 class="font-semibold">Soft Skills</h4>
+            <p class="text-sm mt-1 text-slate-300">Leadership, Communication, Time Management</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section id="services" class="max-w-6xl mx-auto px-6 lg:px-8 py-8">
+        <h2 class="text-2xl font-bold mb-6">Services</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <article class="p-6 rounded-2xl bg-gradient-to-br from-white/3 to-white/2 shadow-lg ring-1 ring-white/5">
+            <h3 class="text-lg font-semibold">Web Design</h3>
+            <p class="text-sm mt-2 text-slate-300">Clean responsive websites, landing pages and portfolios.</p>
+            <div class="mt-4">
+              <a href="#contact" class="text-sm underline">Request quote</a>
+            </div>
+          </article>
+
+          <article class="p-6 rounded-2xl bg-gradient-to-br from-white/3 to-white/2 shadow-lg ring-1 ring-white/5">
+            <h3 class="text-lg font-semibold">Teaching HTML & CSS</h3>
+            <p class="text-sm mt-2 text-slate-300">Live lessons and tutorial materials in Hausa beginner to intermediate.</p>
+          </article>
+
+          <article class="p-6 rounded-2xl bg-gradient-to-br from-white/3 to-white/2 shadow-lg ring-1 ring-white/5">
+            <h3 class="text-lg font-semibold">Web App Development</h3>
+            <p class="text-sm mt-2 text-slate-300">Small apps, dashboards and Android WebView packaging.</p>
+          </article>
+
+          <article class="p-6 rounded-2xl bg-gradient-to-br from-white/3 to-white/2 shadow-lg ring-1 ring-white/5">
+            <h3 class="text-lg font-semibold">Support & Consulting</h3>
+            <p class="text-sm mt-2 text-slate-300">Strategy, hosting, and getting your first online customers.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section id="gallery" class="max-w-6xl mx-auto px-6 lg:px-8 py-8">
+        <h2 class="text-2xl font-bold mb-4">Portfolio / Templates</h2>
+        <p class="text-sm text-slate-300">Below are screenshots from the templates and projects I built.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+          <!-- placeholder cards for 5 templates -->
+          <div class="p-4 rounded-2xl bg-slate-800/30">
+            <img src="images/land.jpg" alt="Template 1" class="w-full rounded-md mb-2" />
+            <h4 class="font-semibold">Responsive Landing Page</h4>
+            <p class="text-sm text-slate-300">A modern responsive landing page built with HTML & CSS.</p>
+          </div>
+
+          <div class="p-4 rounded-2xl bg-slate-800/30">
+            <img src="images/folio.jpg" alt="Template 2" class="w-full rounded-md mb-2" />
+            <h4 class="font-semibold">Portfolio Website</h4>
+            <p class="text-sm text-slate-300">Personal portfolio layout and project pages.</p>
+          </div>
+
+          <div class="p-4 rounded-2xl bg-slate-800/30">
+            <img src="images/sim.jpg" alt="Template 3" class="w-full rounded-md mb-2" />
+            <h4 class="font-semibold">Data App UI</h4>
+            <p class="text-sm text-slate-300">UI for data/airtime subscription service.</p>
+          </div>
+
+          <div class="p-4 rounded-2xl bg-slate-800/30">
+            <img src="images/form.jpg" alt="Template 4" class="w-full rounded-md mb-2" />
+            <h4 class="font-semibold">Contact & Order Form</h4>
+            <p class="text-sm text-slate-300">Form integrated with WhatsApp & email workflow.</p>
+          </div>
+
+          <div class="p-4 rounded-2xl bg-slate-800/30">
+            <img src="images/tech.jpg" alt="Template 5" class="w-full rounded-md mb-2" />
+            <h4 class="font-semibold">Dashboard + Login</h4>
+            <p class="text-sm text-slate-300">Combined login and dashboard template for admin use.</p>
+          </div>
+           <div class="p-4 rounded-2xl bg-slate-800/30">
+            <img src="images/trust.jpg" alt="Template 1" class="w-full rounded-md mb-2" />
+            <h4 class="font-semibold">Responsive Landing Page</h4>
+            <p class="text-sm text-slate-300">A modern responsive landing page built with HTML & CSS.</p>
+          </div>
+        </div>
+       
+      </section>
+      
+
+      <!-- CONTACT -->
+      <section id="contact" class="max-w-4xl mx-auto px-6 lg:px-8 py-12">
+        <div class="bg-slate-800 p-8 rounded-2xl shadow-xl ring-1 ring-white/5">
+          <h2 class="text-2xl font-bold">Contact Me</h2>
+          <p class="text-sm text-slate-300 mt-2">Send a message or you can send via WhatsApp.</p>
+
+          <form id="contactForm" class="mt-6 grid grid-cols-1 gap-4" onsubmit="return handleSubmit(event)">
+            <input required name="name" id="name" placeholder="Your name" class="p-3 rounded-lg bg-white/5 outline-none" />
+            <input required name="email" id="email" type="email" placeholder="Email" class="p-3 rounded-lg bg-white/5 outline-none" />
+            <input name="subject" id="subject" placeholder="Subject" class="p-3 rounded-lg bg-white/5 outline-none" />
+            <textarea required name="message" id="message" rows="5" placeholder="Write your message" class="p-3 rounded-lg bg-white/5 outline-none"></textarea>
+
+            <div class="flex gap-3">
+              <button type="submit" class="px-4 py-2 bg-indigo-500 rounded-lg shadow">Send message</button>
+              <a id="whatsappBtn" href="#" target="_blank" class="px-4 py-2 bg-green-500 rounded-lg shadow">WhatsApp</a>
+            </div>
+          </form>
+
+          <p class="text-xs text-slate-400 mt-4">Bank: UBA, Ahmad Ibrahim  2200481720</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="bg-slate-800/50 text-slate-400 py-6 mt-8">
+      <div class="max-w-6xl mx-auto px-6 lg:px-8 text-center">
+        &copy; <span id="year">2025</span> FJ AIBUKS all right reserved
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    // year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // gallery controls (if you want to add slider later) - placeholder
+
+    // contact form handler: opens user's email client with prefilled email to doctora4508@gmail.com
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const subject = document.getElementById('subject').value.trim() || 'Website contact form';
+      const message = document.getElementById('message').value.trim();
+
+      const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${encodeURIComponent(message)}`;
+      const mailto = `mailto:doctora4508@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+
+      // open mail client
+      window.location.href = mailto;
+
+      // also prepare WhatsApp (leave phone placeholder for you to update)
+      const waPhone = '+2349137362755';
+      const waText = `Hello, my name is ${name}. ${message}`;
+      if(waPhone) document.getElementById('whatsappBtn').href = `https://wa.me/${waPhone}?text=${encodeURIComponent(waText)}`;
+      else document.getElementById('whatsappBtn').href = '#';
+
+      return false;
+    }
+
+    // mobile menu
+    const menuBtn = document.getElementById('menuBtn');
+    if(menuBtn) menuBtn.addEventListener('click', ()=> alert('Mobile menu: add links or a slide-in menu here if needed.'));
+  </script>
+</body>
+</html>
